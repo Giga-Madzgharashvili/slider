@@ -1,0 +1,71 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.arrow {
+    position: absolute;
+    font-size: 30px;
+    color: gray;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.arrow-left {
+    left: 30px;
+}
+
+.arrow-right {
+    right: 30px;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: #bebcbc;
+    text-align: center;
+    background: rgb(0 0 0 / 46%);
+    padding: 20px;
+}
+
+.slider-image {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dotswrapper {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+}
+
+.fa-circle {
+    color: silver;
+    margin-left: 15px;
+    cursor: pointer;
+
+
+}
+
+.fa-circle.active {
+    color: red;
+}
