@@ -1,7 +1,7 @@
 let data = [
   {
     id: 1,
-    imgUrl: "./../img/slide1.jpg",
+    imgUrl: "../img/slide1.jpg",
     title: "slide 1",
     url: "https://www.google.com/",
   },
