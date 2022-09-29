@@ -111,7 +111,7 @@ function arrowRightClick() {
 
 leftArrow.addEventListener("click", arrowLeftClick);
 rightArrow.addEventListener("click", arrowRightClick);
-// setInterval(() => {
-//   arrowRightClick();
-// }, 3000);
+setInterval(() => {
+  arrowRightClick();
+}, 3000);
 setSlide();
