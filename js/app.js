@@ -1,31 +1,31 @@
 let data = [
   {
     id: 1,
-    imgUrl: "../img/slide1.jpg",
+    imgUrl: "./img/slide1.jpg",
     title: "slide 1",
     url: "https://www.google.com/",
   },
   {
     id: 2,
-    imgUrl: "../img/slide2.jpg",
+    imgUrl: "./img/slide2.jpg",
     title: "slide 2",
     url: "https://www.google.com/",
   },
   {
     id: 3,
-    imgUrl: "../img/slide3.jpg",
+    imgUrl: "./img/slide3.jpg",
     title: "slide 3",
     url: "https://www.google.com/",
   },
   {
     id: 4,
-    imgUrl: "../img/slide4.jpg",
+    imgUrl: "./img/slide4.jpg",
     title: "slide 4",
     url: "https://www.google.com/",
   },
   {
     id: 5,
-    imgUrl: "../img/slide5.jpg",
+    imgUrl: "./img/slide5.jpg",
     title: "slide 5",
     url: "https://www.google.com/",
   },
@@ -111,7 +111,7 @@ function arrowRightClick() {
 
 leftArrow.addEventListener("click", arrowLeftClick);
 rightArrow.addEventListener("click", arrowRightClick);
-setInterval(() => {
-  arrowRightClick();
-}, 3000);
+// setInterval(() => {
+//   arrowRightClick();
+// }, 3000);
 setSlide();
